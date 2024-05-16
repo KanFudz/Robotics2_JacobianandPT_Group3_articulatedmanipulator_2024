@@ -1,0 +1,1 @@
+# Robotics2_JacobianandPT_Group3_articulatedmanipulator_2024
