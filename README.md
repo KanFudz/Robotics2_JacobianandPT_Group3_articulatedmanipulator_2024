@@ -128,7 +128,9 @@ In the realm of advanced robotics, the articulated manipulator stands as a corne
 - **Instantaneous Velocity** The rate of change in displacement with respect to time (t).
 <br>
 <div align="center">
-(insert image)
+ 
+![JACOBIAN MATRIX ARTICULATED](https://github.com/KanFudz/Robotics2_JacobianandPT_Group3_articulatedmanipulator_2024/assets/157782959/0a0eda2d-cc06-467b-8adb-a0d2916840a0)
+
 </div>
  
     
