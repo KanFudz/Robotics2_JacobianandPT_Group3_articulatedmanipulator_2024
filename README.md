@@ -141,7 +141,9 @@ In the realm of advanced robotics, the articulated manipulator stands as a corne
 <br>
 </div>
 <div align="center">
- (insert image)
+ 
+![DE ARTICULATED](https://github.com/KanFudz/Robotics2_JacobianandPT_Group3_articulatedmanipulator_2024/assets/157782959/6454d0c4-2d5a-4d31-aef8-674e9d5f0f21)
+ 
 </div>
     
 ## V. Path and Trajerctory Planning of Articulated Manipulator<a name="pathandtrajectory"></a>
