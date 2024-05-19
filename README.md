@@ -126,8 +126,10 @@ In the realm of advanced robotics, the articulated manipulator stands as a corne
 - **Constant Velocity** Displacement over time (t)
 - **Average Velocity** Change in displacement over change in time (t).
 - **Instantaneous Velocity** The rate of change in displacement with respect to time (t).
-    
 <br>
+<div align="center">
+(insert image)
+</div>
  
     
 ## IV. Differential Equation of Articulated Manipulator<a name="differentialequation"></a>
@@ -136,7 +138,9 @@ In the realm of advanced robotics, the articulated manipulator stands as a corne
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The dynamic behavior of an articulated manipulator can be described by a set of differential equations derived from the principles of rigid body dynamics and control theory. These equations are essential for understanding and controlling the motion of the manipulator's joints and end-effector. 
 <br>
 </div>
-   
+<div align="center">
+ (insert image)
+</div>
     
 ## V. Path and Trajerctory Planning of Articulated Manipulator<a name="pathandtrajectory"></a>
 
