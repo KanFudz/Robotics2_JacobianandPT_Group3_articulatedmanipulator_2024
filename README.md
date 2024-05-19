@@ -13,9 +13,9 @@
 <br>
 [III. Jacobian Matrix of Articulated Manipulator](#jacobianmatrix)
 <br>
-[IV. Differential Equation of Articulated Manipulator](#differential equation)
+[IV. Differential Equation of Articulated Manipulator](#differentialequation)
 <br>
-[V. Path and Trajectory Planning of Articulated Manipulator](#path and trajectory)
+[V. Path and Trajectory Planning of Articulated Manipulator](#pathandtrajectory)
 <br>							
 [VI. References](#references)
 <br>
@@ -124,7 +124,7 @@ In the realm of advanced robotics, the articulated manipulator stands as a corne
 <br>
  
     
-## IV. Differential Equation of Articulated Manipulator<a name="differential equation"></a>
+## IV. Differential Equation of Articulated Manipulator<a name="differentialequation"></a>
 
 <div align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The dynamic behavior of an articulated manipulator can be described by a set of differential equations derived from the principles of rigid body dynamics and control theory. These equations are essential for understanding and controlling the motion of the manipulator's joints and end-effector. 
@@ -132,7 +132,7 @@ In the realm of advanced robotics, the articulated manipulator stands as a corne
 </div>
    
     
-## V. Path and Trajerctory Planning of Articulated Manipulator<a name="path and trajectory"></a>
+## V. Path and Trajerctory Planning of Articulated Manipulator<a name="pathandtrajectory"></a>
 
 <div align="justify">
  
