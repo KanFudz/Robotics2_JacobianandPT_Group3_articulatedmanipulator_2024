@@ -111,8 +111,7 @@ def start_welding():
     Welding_Robot.plot(all_q, block=True, limits=plot_limits)
 
 # Create a button to initiate welding
-start_weld_button = Button(frame, text="Start Welding", padx=20, pady=10, 
-                           command=start_welding, bg='#d3322a', fg='white', font=('Arial', 14))
+start_weld_button = Button(frame, text="Start Welding", padx=20, pady=10, command=start_welding, bg='#d3322a', fg='white', font=('Arial', 14))
 start_weld_button.grid(row=4, columnspan=3, pady=20)
 
 # Run the main loop
