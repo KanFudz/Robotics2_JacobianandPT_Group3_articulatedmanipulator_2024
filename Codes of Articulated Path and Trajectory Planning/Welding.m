@@ -62,7 +62,7 @@ all_trajectories = [traj_spot1; spot_trajectories; spot4_to_spot1_traj; full_wel
 all_q = all_trajectories;
 
 % Define plot limits (adjust these values as needed)
-plot_limits = [-3.5, 3.5, -2, 2, -2, 2];
+plot_limits = [-3.5, 3.5, -4, 4, -4, 4];
 
 % Plot the combined trajectory with specified limits
 robot.plot(all_q, 'trail', 'r-', 'jointdiam', 1, 'nowrist', 'nobase', 'noshadow', 'workspace', plot_limits);
