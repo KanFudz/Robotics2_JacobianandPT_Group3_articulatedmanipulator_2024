@@ -14,9 +14,9 @@ frame = Frame(root, bg='black')
 frame.grid(row=0, column=0, padx=20, pady=20)
 
 # Predetermined link lengths
-a1_value = StringVar(root, value="30")
-a2_value = StringVar(root, value="20")
-a3_value = StringVar(root, value="15")
+a1_value = StringVar(root, value="3")
+a2_value = StringVar(root, value="2")
+a3_value = StringVar(root, value="1.5")
 
 # Display link lengths
 # Create labels for link lengths with predetermined values
@@ -105,7 +105,7 @@ def start_welding():
     all_q = np.concatenate([traj.q for traj in all_trajectories])
 
     # Define plot limits (adjust these values as needed)
-    plot_limits = [-50, 50, -50, 50, -50, 50]
+    plot_limits = [-3.5, 3.5, -2, 2, -2, 2];
 
     # Plot the combined trajectory with specified limits
     Welding_Robot.plot(all_q, block=True, limits=plot_limits)
