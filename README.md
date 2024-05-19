@@ -1,74 +1,78 @@
 # Robotics2_JacobianandPT_Group3_articulatedmanipulator_2024
 <div align="center">
  
-    # **JACOBIAN MATRIX AND PATH & TRAJECTORY PLANNING**
+# **JACOBIAN MATRIX AND PATH & TRAJECTORY PLANNING**
     
-    </div>
+</div>
      
-    ## Project Course Portfolio</h2>
+## Project Course Portfolio</h2>
     
-    [I. Abstract of the Project](#abstract)
-    <br>
-    [II. Introduction of the Project](#introduction)
-     <br>
-    [III. Jacobian Matrix of Articulated Manipulator](#jacobian matrix)
-     <br>
-    [IV. Differential Equation of Articulated Manipulator](#differential equation)
-     <br>
-    [V. Path and Trajectory Planning of Articulated Manipulator](#lath and trajectory)
-     <br>							
-    [VI. References](#references)
-    <br>
-    [VII. Group Members](#group-members)
-    <br>
+[I. Abstract of the Project](#abstract)
+<br>
+[II. Introduction of the Project](#introduction)
+<br>
+[III. Jacobian Matrix of Articulated Manipulator](#jacobian matrix)
+<br>
+[IV. Differential Equation of Articulated Manipulator](#differential equation)
+<br>
+[V. Path and Trajectory Planning of Articulated Manipulator](#lath and trajectory)
+<br>							
+[VI. References](#references)
+<br>
+[VII. Group Members](#group-members)
+<br>
     
-    <div align="justify">
+<div align="justify">
     
-    ## I. Abstract of the Project<a name="abstract"></a>
+## I. Abstract of the Project<a name="abstract"></a>
   
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This project explores the utilization of the Jacobian matrix for path and trajectory planning of articulated manipulators. The Jacobian matrix, pivotal in robotic kinematics, facilitates the translation of joint space movements to Cartesian space motions, thereby linking joint velocities to end-effector velocities. Our research focuses on harnessing this mathematical tool to enhance the precision and efficiency of motion planning for articulated robotic arms.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This project explores the utilization of the Jacobian matrix for path and trajectory planning of articulated manipulators. The Jacobian matrix, pivotal in robotic kinematics, facilitates the translation of joint space movements to Cartesian space motions, thereby linking joint velocities to end-effector velocities. Our research focuses on harnessing this mathematical tool to enhance the precision and efficiency of motion planning for articulated robotic arms.
     <br>
     
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We employ the Jacobian matrix in both forward and inverse kinematics to enable precise control over the manipulator's movements. This involves generating optimal paths and trajectories that navigate from an initial position to a target, while considering constraints such as joint limits, obstacles, and collision avoidance. Our approach integrates real-time adjustments to dynamic environmental changes, ensuring robustness and adaptability in various operational scenarios. 
-    <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We employ the Jacobian matrix in both forward and inverse kinematics to enable precise control over the manipulator's movements. This involves generating optimal paths and trajectories that navigate from an initial position to a target, while considering constraints such as joint limits, obstacles, and collision avoidance. Our approach integrates real-time adjustments to dynamic environmental changes, ensuring robustness and adaptability in various operational scenarios. 
+<br>
     
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Advanced computational algorithms are developed to solve the inverse kinematics problem, providing feasible joint configurations for desired end-effector positions. Furthermore, we incorporate trajectory optimization techniques to achieve smooth and energy-efficient motions, enhancing the manipulator's operational performance.
-    <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Advanced computational algorithms are developed to solve the inverse kinematics problem, providing feasible joint configurations for desired end-effector positions. Furthermore, we incorporate trajectory optimization techniques to achieve smooth and energy-efficient motions, enhancing the manipulator's operational performance.
+<br>
     
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The project includes extensive simulations and experimental validations on multiple articulated manipulator models. Results demonstrate the effectiveness of our Jacobian-based methods in achieving accurate, efficient, and reliable path and trajectory planning.
-    <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The project includes extensive simulations and experimental validations on multiple articulated manipulator models. Results demonstrate the effectiveness of our Jacobian-based methods in achieving accurate, efficient, and reliable path and trajectory planning.
+<br>
     
     
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our findings have significant implications for the field of robotics, particularly in applications requiring high precision and adaptability, such as industrial automation, medical robotics, and autonomous systems. By advancing the capabilities of articulated manipulators, this research contributes to the development of more sophisticated and versatile robotic solutions.
-    <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our findings have significant implications for the field of robotics, particularly in applications requiring high precision and adaptability, such as industrial automation, medical robotics, and autonomous systems. By advancing the capabilities of articulated manipulators, this research contributes to the development of more sophisticated and versatile robotic solutions.
+<br>
     
-    </div>
+</div>
     
-    ## II. Introduction of the Project<a name="introduction">
-    <div align="justify">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    In the realm of advanced robotics, the articulated manipulator stands as a cornerstone for automation, precision, and versatility across diverse industrial applications. This project delves into two critical aspects that enhance the performance and functionality of articulated manipulators: the Jacobian matrix and path & trajectory planning.
-    <br>
+## II. Introduction of the Project<a name="introduction">
+<div align="justify">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+In the realm of advanced robotics, the articulated manipulator stands as a cornerstone for automation, precision, and versatility across diverse industrial applications. This project delves into two critical aspects that enhance the performance and functionality of articulated manipulators: the Jacobian matrix and path & trajectory planning.
+<br>
     
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Jacobian matrix is a fundamental concept in the kinematic analysis of robotic manipulators. It encapsulates the relationship between joint velocities and end-effector velocities, providing a mathematical framework for understanding and controlling the motion of the manipulator. This project aims to develop a comprehensive understanding of the Jacobian matrix, exploring its derivation, properties, and applications in real-time control and optimization of robotic movements.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Jacobian matrix is a fundamental concept in the kinematic analysis of robotic manipulators. It encapsulates the relationship between joint velocities and end-effector velocities, providing a mathematical framework for understanding and controlling the motion of the manipulator. This project aims to develop a comprehensive understanding of the Jacobian matrix, exploring its derivation, properties, and applications in real-time control and optimization of robotic movements.
     
-    <br>
+<br>
     
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Complementing the kinematic insights provided by the Jacobian matrix, effective path and trajectory planning is pivotal for ensuring that the manipulator performs tasks with precision and efficiency. Path planning focuses on determining a collision-free route from the start to the end position, while trajectory planning involves the timing and smooth execution of this path. This project will investigate various algorithms and techniques for both path and trajectory planning, emphasizing their integration with the Jacobian matrix to achieve seamless and adaptive manipulator control.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Complementing the kinematic insights provided by the Jacobian matrix, effective path and trajectory planning is pivotal for ensuring that the manipulator performs tasks with precision and efficiency. Path planning focuses on determining a collision-free route from the start to the end position, while trajectory planning involves the timing and smooth execution of this path. This project will investigate various algorithms and techniques for both path and trajectory planning, emphasizing their integration with the Jacobian matrix to achieve seamless and adaptive manipulator control.
     
-    <br>
+<br>
     
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Through a systematic exploration of these elements, this project aspires to contribute to the development of more intelligent, responsive, and capable robotic systems. By enhancing our understanding and application of the Jacobian matrix and optimizing path and trajectory planning, we can push the boundaries of what articulated manipulators can achieve, paving the way for innovations in automation and robotics.
-    <br>
-    </div>
-    ### Purpose and Use
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Purpose and Use of the Jacobian Matrix and Path & Trajectory Planning in Mechanical Manipulators
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Through a systematic exploration of these elements, this project aspires to contribute to the development of more intelligent, responsive, and capable robotic systems. By enhancing our understanding and application of the Jacobian matrix and optimizing path and trajectory planning, we can push the boundaries of what articulated manipulators can achieve, paving the way for innovations in automation and robotics.
+<br>
+
+</div>
+
+### Purpose and Use
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Purpose and Use of the Jacobian Matrix and Path & Trajectory Planning in Mechanical Manipulators
     The Jacobian matrix and path & trajectory planning are pivotal components in the design and control of mechanical manipulators, each serving distinct yet complementary roles that enhance the manipulator's functionality and efficiency.
-    <br>
-    **Jacobian Matrix**
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Jacobian matrix is a critical tool in the kinematic and dynamic analysis of mechanical manipulators. Its primary purposes and uses include:
-    <br>
-    - **Velocity Mapping:**  The Jacobian matrix provides a direct relationship between the velocities of the manipulator's joints and the velocity of the end-effector. This mapping is essential for understanding how movements in joint space translate to movements in Cartesian space, enabling precise control over the end-effector's position and orientation.
+<br>
+**Jacobian Matrix**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Jacobian matrix is a critical tool in the kinematic and dynamic analysis of mechanical manipulators. Its primary purposes and uses include:
+<br>
+
+- **Velocity Mapping:**  The Jacobian matrix provides a direct relationship between the velocities of the manipulator's joints and the velocity of the end-effector. This mapping is essential for understanding how movements in joint space translate to movements in Cartesian space, enabling precise control over the end-effector's position and orientation.
     
     - **Singularity Analysis:** By examining the Jacobian matrix, engineers can identify singular configurations where the manipulator loses certain degrees of freedom. This analysis is crucial for avoiding positions that could lead to control difficulties or mechanical failures.
     
@@ -76,32 +80,36 @@
     
     - **Inverse Kinematics:** Inverse kinematic solutions often rely on the Jacobian matrix to iteratively compute the required joint angles to achieve a desired end-effector position, particularly in redundant or complex manipulator systems.
     
-   \**Path and Trajectory Planning**
-    <div align="justify">
+**Path and Trajectory Planning**
+
+<div align="justify">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Path and trajectory planning are essential for ensuring that a mechanical manipulator moves efficiently and accurately within its operational environment. The purposes and uses of these processes include:
-    <br>
-    - **Collision Avoidance:** Path planning algorithms are employed to determine a collision-free route for the manipulator from a start position to an end position. This is critical for operating in environments with obstacles or in multi-robot systems where coordination is required.
+<br>
     
-    - **Optimized Movement:** Trajectory planning focuses on the timing and execution of the planned path. It ensures that the manipulator moves smoothly and efficiently, optimizing parameters such as speed, acceleration, and jerk to minimize wear and energy consumption.
+ - **Collision Avoidance:** Path planning algorithms are employed to determine a collision-free route for the manipulator from a start position to an end position. This is critical for operating in environments with obstacles or in multi-robot systems where coordination is required.
+    
+ - **Optimized Movement:** Trajectory planning focuses on the timing and execution of the planned path. It ensures that the manipulator moves smoothly and efficiently, optimizing parameters such as speed, acceleration, and jerk to minimize wear and energy consumption.
     
     - **Task Precision:** Accurate trajectory planning ensures that the manipulator performs tasks with high precision, following the desired path closely. This is particularly important in applications requiring fine manipulation or high accuracy, such as assembly or surgical robotics.
     
     - **Real-Time Adaptability:** Advanced path and trajectory planning algorithms allow for real-time adjustments to the manipulator's movements. This adaptability is essential in dynamic environments where conditions may change rapidly, requiring the manipulator to react promptly to maintain performance and safety.
     
     <div align="justify">
+     
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In summary, the Jacobian matrix and path & trajectory planning are indispensable for the effective operation of mechanical manipulators. The Jacobian matrix facilitates precise control and analysis of the manipulator's kinematics and dynamics, while path and trajectory planning ensure that movements are efficient, accurate, and adaptable. Together, these components enable the development of sophisticated robotic systems capable of performing complex tasks in a variety of settings.
-    <br>
-    </div>
+<br>
+</div>
     
-    
-    ## III. Jacobian Matrix of Articulated Manipulator<a name="jacobian matrix"></a>
-    <div align="justify">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In general, Jacobian Matrix is a matrix that relates the end-effector velocities to joint velocities. It is also the partial derivatives of the Forward Kinematics equation.
-    </div>
+
+## III. Jacobian Matrix of Articulated Manipulator<a name="jacobian matrix"></a>
+<div align="justify">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In general, Jacobian Matrix is a matrix that relates the end-effector velocities to joint velocities. It is also the partial derivatives of the Forward Kinematics equation.
+</div>
     - **Constant Velocity** Displacement over time (t)
     - **Average Velocity** Change in displacement over change in time (t).
     - **Instantaneous Velocity** The rate of change in displacement with respect to time (t).
-    <br>
+    
+<br>
      
     
     ## IV. Differential Equation of Articulated Manipulator<a name="differential equation"></a>
