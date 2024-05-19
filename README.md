@@ -111,7 +111,7 @@ In the realm of advanced robotics, the articulated manipulator stands as a corne
 </div>
     
 
-## III. Jacobian Matrix of Articulated Manipulator<a name="jacobian matrix
+## III. Jacobian Matrix of Articulated Manipulator<a name="jacobian matrix"> </a>
 
 <div align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In general, Jacobian Matrix is a matrix that relates the end-effector velocities to joint velocities. It is also the partial derivatives of the Forward Kinematics equation.
@@ -122,9 +122,9 @@ In the realm of advanced robotics, the articulated manipulator stands as a corne
 - **Instantaneous Velocity** The rate of change in displacement with respect to time (t).
     
 <br>
- </a>    
+ 
     
-## IV. Differential Equation of Articulated Manipulator<a name="differential equation">
+## IV. Differential Equation of Articulated Manipulator<a name="differential equation"></a>
 
 <div align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The dynamic behavior of an articulated manipulator can be described by a set of differential equations derived from the principles of rigid body dynamics and control theory. These equations are essential for understanding and controlling the motion of the manipulator's joints and end-effector. 
@@ -132,7 +132,7 @@ In the realm of advanced robotics, the articulated manipulator stands as a corne
 </div>
    
     
-## V. Path and Trajerctory Planning of Articulated Manipulator<a name="path and trajectory"> </a>
+## V. Path and Trajerctory Planning of Articulated Manipulator<a name="path and trajectory"></a>
 
 <div align="justify">
  
