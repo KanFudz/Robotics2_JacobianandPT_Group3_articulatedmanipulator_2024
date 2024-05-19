@@ -81,7 +81,9 @@ In the realm of advanced robotics, the articulated manipulator stands as a corne
 </div>
 
 <div align="justify">  
-**Jacobian Matrix**
+
+ **Jacobian Matrix**
+<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Jacobian matrix is a critical tool in the kinematic and dynamic analysis of mechanical manipulators. Its primary purposes and uses include:
 <br>
 </div>
