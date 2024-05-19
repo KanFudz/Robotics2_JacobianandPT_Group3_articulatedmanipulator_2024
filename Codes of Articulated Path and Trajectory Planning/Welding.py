@@ -105,7 +105,7 @@ def start_welding():
     all_q = np.concatenate([traj.q for traj in all_trajectories])
 
     # Define plot limits (adjust these values as needed)
-    plot_limits = [-3.5, 3.5, -2, 2, -2, 2];
+    plot_limits = [-3.5, 3.5, -4, 4, -4, 4];
 
     # Plot the combined trajectory with specified limits
     Welding_Robot.plot(all_q, block=True, limits=plot_limits)
