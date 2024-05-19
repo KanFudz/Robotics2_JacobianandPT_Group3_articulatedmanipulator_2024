@@ -11,7 +11,7 @@
 <br>
 [II. Introduction of the Project](#introduction)
 <br>
-[III. Jacobian Matrix of Articulated Manipulator](#jacobian matrix)
+[III. Jacobian Matrix of Articulated Manipulator](#jacobianmatrix)
 <br>
 [IV. Differential Equation of Articulated Manipulator](#differential equation)
 <br>
@@ -111,7 +111,7 @@ In the realm of advanced robotics, the articulated manipulator stands as a corne
 </div>
     
 
-## III. Jacobian Matrix of Articulated Manipulator<a name="jacobian matrix"> </a>
+## III. Jacobian Matrix of Articulated Manipulator<a name="jacobianmatrix"> </a>
 
 <div align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In general, Jacobian Matrix is a matrix that relates the end-effector velocities to joint velocities. It is also the partial derivatives of the Forward Kinematics equation.
