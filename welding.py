@@ -26,7 +26,7 @@ a1_label.grid(row=1, column=0, sticky=W)
 a1_value_label = Label(frame, textvariable=a1_value, padx=10, pady=10, bg='#540f0d', fg='white', font=('Arial', 14))
 a1_value_label.grid(row=1, column=1, sticky=W)
 
-a1_unit = Label(frame, text="cm", padx=10, pady=10, bg='#540f0d', fg='white', font=('Arial', 14))
+a1_unit = Label(frame, text="m", padx=10, pady=10, bg='#540f0d', fg='white', font=('Arial', 14))
 a1_unit.grid(row=1, column=2, sticky=W)
 
 a2_label = Label(frame, text="a2:", padx=10, pady=10, bg='#6b0500', fg='white', font=('Arial', 14))
@@ -35,7 +35,7 @@ a2_label.grid(row=2, column=0, sticky=W)
 a2_value_label = Label(frame, textvariable=a2_value, padx=10, pady=10, bg='#6b0500', fg='white', font=('Arial', 14))
 a2_value_label.grid(row=2, column=1, sticky=W)
 
-a2_unit = Label(frame, text="cm", padx=10, pady=10, bg='#6b0500', fg='white', font=('Arial', 14))
+a2_unit = Label(frame, text="m", padx=10, pady=10, bg='#6b0500', fg='white', font=('Arial', 14))
 a2_unit.grid(row=2, column=2, sticky=W)
 
 a3_label = Label(frame, text="a3:", padx=10, pady=10, bg='#87080a', fg='white', font=('Arial', 14))
@@ -44,7 +44,7 @@ a3_label.grid(row=3, column=0, sticky=W)
 a3_value_label = Label(frame, textvariable=a3_value, padx=10, pady=10, bg='#87080a', fg='white', font=('Arial', 14))
 a3_value_label.grid(row=3, column=1, sticky=W)
 
-a3_unit = Label(frame, text="cm", padx=10, pady=10, bg='#87080a', fg='white', font=('Arial', 14))
+a3_unit = Label(frame, text="m", padx=10, pady=10, bg='#87080a', fg='white', font=('Arial', 14))
 a3_unit.grid(row=3, column=2, sticky=W)
 
 def start_welding():
