@@ -14,8 +14,8 @@ frame = Frame(root, bg='black')
 frame.grid(row=0, column=0, padx=20, pady=20)
 
 # Predetermined link lengths
-a1_value = StringVar(root, value="3")
-a2_value = StringVar(root, value="2")
+a1_value = StringVar(root, value="3.5")
+a2_value = StringVar(root, value="2.5")
 a3_value = StringVar(root, value="1.5")
 
 # Display link lengths
