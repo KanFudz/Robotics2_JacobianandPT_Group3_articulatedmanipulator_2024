@@ -112,35 +112,39 @@ In the realm of advanced robotics, the articulated manipulator stands as a corne
     
 
 ## III. Jacobian Matrix of Articulated Manipulator<a name="jacobian matrix"></a>
+
 <div align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In general, Jacobian Matrix is a matrix that relates the end-effector velocities to joint velocities. It is also the partial derivatives of the Forward Kinematics equation.
 </div>
-    - **Constant Velocity** Displacement over time (t)
-    - **Average Velocity** Change in displacement over change in time (t).
-    - **Instantaneous Velocity** The rate of change in displacement with respect to time (t).
+
+- **Constant Velocity** Displacement over time (t)
+- **Average Velocity** Change in displacement over change in time (t).
+- **Instantaneous Velocity** The rate of change in displacement with respect to time (t).
     
 <br>
      
     
-    ## IV. Differential Equation of Articulated Manipulator<a name="differential equation"></a>
-    <div align="justify">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Differential Equation of an Articulated Manipulator
-    The dynamic behavior of an articulated manipulator can be described by a set of differential equations derived from the principles of rigid body dynamics and control theory. These equations are essential for understanding and controlling the motion of the manipulator's joints and end-effector. 
-    <br>
-    </div>
+## IV. Differential Equation of Articulated Manipulator<a name="differential equation"></a>
+
+<div align="justify">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The dynamic behavior of an articulated manipulator can be described by a set of differential equations derived from the principles of rigid body dynamics and control theory. These equations are essential for understanding and controlling the motion of the manipulator's joints and end-effector. 
+<br>
+</div>
    
     
-    ## V. Path and Trajerctory Planning of Articulated Manipulator<a name="path and trajectory"></a>
-    <div align="justify">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Path and Trajectory Planning of an Articulated Manipulator
-    Path and trajectory planning are crucial processes in the control and operation of articulated manipulators, ensuring that the robot moves from one point to another efficiently, accurately, and safely. These processes involve determining the sequence of movements (path) and the timing of these movements (trajectory) to achieve a desired task.
+## V. Path and Trajerctory Planning of Articulated Manipulator<a name="path and trajectory"> </a>
+
+<div align="justify">
+ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Path and trajectory planning are crucial processes in the control and operation of articulated manipulators, ensuring that the robot moves from one point to another efficiently, accurately, and safely. These processes involve determining the sequence of movements (path) and the timing of these movements (trajectory) to achieve a desired task.
     
-    ### Path Planning
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Path planning refers to the process of defining a collision-free route that the manipulator’s end-effector or joints must follow to move from a start position to a goal position. Key aspects of path planning include:
+### Path Planning
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Path planning refers to the process of defining a collision-free route that the manipulator’s end-effector or joints must follow to move from a start position to a goal position. Key aspects of path planning include:
     
-    - **Collision Avoidance:** Ensuring the manipulator does not collide with obstacles in its environment, including itself and other robots.
-    - **Optimality:** Finding the shortest, most efficient, or least energy-consuming path, depending on the criteria set by the specific application.
-    - **Feasibility:** Ensuring that the planned path is within the manipulator's kinematic and dynamic capabilities, considering factors such as joint limits and workspace constraints.
+- **Collision Avoidance:** Ensuring the manipulator does not collide with obstacles in its environment, including itself and other robots.
+- **Optimality:** Finding the shortest, most efficient, or least energy-consuming path, depending on the criteria set by the specific application.
+- **Feasibility:** Ensuring that the planned path is within the manipulator's kinematic and dynamic capabilities, considering factors such as joint limits and workspace constraints.
+  
     Redundancy Resolution: For manipulators with more degrees of freedom than necessary to complete a task (redundant manipulators), path planning also involves choosing among the infinite possible configurations.
     
     ### Trajectory Planning
