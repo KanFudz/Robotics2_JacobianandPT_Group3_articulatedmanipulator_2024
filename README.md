@@ -84,11 +84,11 @@ In the realm of advanced robotics, the articulated manipulator stands as a corne
 
 - **Velocity Mapping:**  The Jacobian matrix provides a direct relationship between the velocities of the manipulator's joints and the velocity of the end-effector. This mapping is essential for understanding how movements in joint space translate to movements in Cartesian space, enabling precise control over the end-effector's position and orientation.
     
-    - **Singularity Analysis:** By examining the Jacobian matrix, engineers can identify singular configurations where the manipulator loses certain degrees of freedom. This analysis is crucial for avoiding positions that could lead to control difficulties or mechanical failures.
+- **Singularity Analysis:** By examining the Jacobian matrix, engineers can identify singular configurations where the manipulator loses certain degrees of freedom. This analysis is crucial for avoiding positions that could lead to control difficulties or mechanical failures.
     
-    - **Force Transmission:** The Jacobian matrix also relates joint torques to forces and moments at the end-effector. This relationship is used to ensure that the manipulator can apply the necessary forces to perform tasks such as gripping or manipulating objects.
+- **Force Transmission:** The Jacobian matrix also relates joint torques to forces and moments at the end-effector. This relationship is used to ensure that the manipulator can apply the necessary forces to perform tasks such as gripping or manipulating objects.
     
-    - **Inverse Kinematics:** Inverse kinematic solutions often rely on the Jacobian matrix to iteratively compute the required joint angles to achieve a desired end-effector position, particularly in redundant or complex manipulator systems.
+- **Inverse Kinematics:** Inverse kinematic solutions often rely on the Jacobian matrix to iteratively compute the required joint angles to achieve a desired end-effector position, particularly in redundant or complex manipulator systems.
     
 **Path and Trajectory Planning**
 
