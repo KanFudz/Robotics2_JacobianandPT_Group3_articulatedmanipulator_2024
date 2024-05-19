@@ -193,7 +193,13 @@ In the realm of advanced robotics, the articulated manipulator stands as a corne
      
     
 ## VI. References<a name="references"></a>
-    
+https://www.youtube.com/watch?v=4xIkUo0M1R8&list=PLUgsbeZHs9qMFXTIQPW0clLoRkf_oiBoX&index=14 
+
+https://www.youtube.com/watch?v=gR08ESR9gUg&list=PLUgsbeZHs9qMFXTIQPW0clLoRkf_oiBoX&index=16
+
+https://www.youtube.com/watch?v=fC9lMgB8l84&list=PLUgsbeZHs9qMFXTIQPW0clLoRkf_oiBoX&index=17&t=458s
+
+
 ## VII. Group Members<a name="group-members"></a>
     
 1. Comia, Alexandria B. (21-07197)
