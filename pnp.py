@@ -15,9 +15,9 @@ frame = Frame(root, bg='black')
 frame.grid(row=0, column=0, padx=20, pady=20)
 
 # Predetermined link lengths
-a1_value = StringVar(root, value="30")
-a2_value = StringVar(root, value="20")
-a3_value = StringVar(root, value="15")
+a1_value = StringVar(root, value="3")
+a2_value = StringVar(root, value="2")
+a3_value = StringVar(root, value="1.5")
 
 # Display link lengths
 # Create labels for link lengths with predetermined values
@@ -27,7 +27,7 @@ a1_label.grid(row=1, column=0, sticky=W)
 a1_value_label = Label(frame, textvariable=a1_value, padx=10, pady=10, bg='#012228', fg='white', font=('Arial', 14))
 a1_value_label.grid(row=1, column=1, sticky=W)
 
-a1_unit = Label(frame, text="cm", padx=10, pady=10, bg='#012228', fg='white', font=('Arial', 14))
+a1_unit = Label(frame, text="m", padx=10, pady=10, bg='#012228', fg='white', font=('Arial', 14))
 a1_unit.grid(row=1, column=2, sticky=W)
 
 a2_label = Label(frame, text="a2:", padx=10, pady=10, bg='#032b28', fg='white', font=('Arial', 14))
@@ -36,7 +36,7 @@ a2_label.grid(row=2, column=0, sticky=W)
 a2_value_label = Label(frame, textvariable=a2_value, padx=10, pady=10, bg='#032b28', fg='white', font=('Arial', 14))
 a2_value_label.grid(row=2, column=1, sticky=W)
 
-a2_unit = Label(frame, text="cm", padx=10, pady=10, bg='#032b28', fg='white', font=('Arial', 14))
+a2_unit = Label(frame, text="m", padx=10, pady=10, bg='#032b28', fg='white', font=('Arial', 14))
 a2_unit.grid(row=2, column=2, sticky=W)
 
 a3_label = Label(frame, text="a3:", padx=10, pady=10, bg='#0d3f2e', fg='white', font=('Arial', 14))
@@ -45,7 +45,7 @@ a3_label.grid(row=3, column=0, sticky=W)
 a3_value_label = Label(frame, textvariable=a3_value, padx=10, pady=10, bg='#0d3f2e', fg='white', font=('Arial', 14))
 a3_value_label.grid(row=3, column=1, sticky=W)
 
-a3_unit = Label(frame, text="cm", padx=10, pady=10, bg='#0d3f2e', fg='white', font=('Arial', 14))
+a3_unit = Label(frame, text="m", padx=10, pady=10, bg='#0d3f2e', fg='white', font=('Arial', 14))
 a3_unit.grid(row=3, column=2, sticky=W)
 
 
@@ -85,7 +85,7 @@ def start_simulation():
     all_q = np.concatenate([traj.q for traj in trajectories])
 
     # Define plot limits
-    plot_limits = [-30, 30, -30, 30, -30, 30]  # Adjust these values as needed
+    plot_limits = [-3.5, 3.5, -2, 2, -2, 2];  # Adjust these values as needed
 
     # Plot the combined trajectory with specified limits
     Articulated_Calculator.plot(all_q, block=True, limits=plot_limits)
