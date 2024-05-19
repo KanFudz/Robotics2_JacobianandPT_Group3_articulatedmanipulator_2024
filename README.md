@@ -187,7 +187,7 @@ In the realm of advanced robotics, the articulated manipulator stands as a corne
 ## VII. Group Members<a name="group-members"></a>
     
 1. Comia, Alexandria B. (21-07197)
-2. Hernandez
+2. Hernandez, Lelanie Lorraine C. (21-02123)
 3. Malabanan, Angelo Louis D. (21-04184)
 4. Malata, John Rei R. (21-08864)
 5. Medrano, Russel I. (19-06602)
