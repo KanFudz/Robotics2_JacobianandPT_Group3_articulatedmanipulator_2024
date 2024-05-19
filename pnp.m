@@ -1,7 +1,7 @@
 % Link lengths
-a1 = 30; % Link 1 length (cm)
-a2 = 20; % Link 2 length (cm)
-a3 = 15; % Link 3 length (cm)
+a1 = 3; % Link 1 length (m)
+a2 = 2; % Link 2 length (m)
+a3 = 1.5; % Link 3 length (m)
 
 % DH parameters for the robot
 dh_params = [
