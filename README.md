@@ -111,7 +111,7 @@ In the realm of advanced robotics, the articulated manipulator stands as a corne
 </div>
     
 
-## III. Jacobian Matrix of Articulated Manipulator <a name="jacobian matrix"></a>
+## III. Jacobian Matrix of Articulated Manipulator<a name="jacobian matrix
 
 <div align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In general, Jacobian Matrix is a matrix that relates the end-effector velocities to joint velocities. It is also the partial derivatives of the Forward Kinematics equation.
@@ -122,9 +122,9 @@ In the realm of advanced robotics, the articulated manipulator stands as a corne
 - **Instantaneous Velocity** The rate of change in displacement with respect to time (t).
     
 <br>
-     
+ </a>    
     
-## IV. Differential Equation of Articulated Manipulator<a name="differential equation"></a>
+## IV. Differential Equation of Articulated Manipulator<a name="differential equation">
 
 <div align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The dynamic behavior of an articulated manipulator can be described by a set of differential equations derived from the principles of rigid body dynamics and control theory. These equations are essential for understanding and controlling the motion of the manipulator's joints and end-effector. 
@@ -173,14 +173,14 @@ In the realm of advanced robotics, the articulated manipulator stands as a corne
     
     <div align="justify">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Path and trajectory planning are fundamental to the effective operation of articulated manipulators, ensuring that movements are both efficient and precise. Path planning focuses on determining a feasible and optimal route, while trajectory planning ensures that the manipulator moves along this path smoothly and within its operational limits. Together, these processes enable the manipulator to perform a wide range of tasks, from simple pick-and-place operations to complex assembly and interaction in dynamic environments.
-    </div>
+</div>
     
-    <br>
+<br>
      
     
-    ## VI. References<a name="references"></a>
+## VI. References<a name="references"></a>
     
-    ## VII. Group Members<a name="group-members"></a>
+## VII. Group Members<a name="group-members"></a>
     
     1. Comia, Alexandria B. (21-07197)
     2. Hernandez
