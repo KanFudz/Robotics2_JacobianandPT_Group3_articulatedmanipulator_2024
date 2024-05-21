@@ -138,7 +138,7 @@ In the realm of advanced robotics, the articulated manipulator stands as a corne
 ### **Jacobian Matrix of Articulated Manipulator**
 
 
-![Screenshot 2024-05-21 124026](https://github.com/KanFudz/Robotics2_JacobianandPT_Group3_articulatedmanipulator_2024/assets/157782959/1bb3548b-697f-47d6-8107-e806cc369d4b)[(https://www.youtube.com/watch?v=g7lCQ4IBkvA)](https://www.youtube.com/watch?v=-NZXbrpljoQ)
+![Screenshot 2024-05-21 124026](https://github.com/KanFudz/Robotics2_JacobianandPT_Group3_articulatedmanipulator_2024/assets/157782959/1bb3548b-697f-47d6-8107-e806cc369d4b)[(https://www.youtube.com/watch?v=g7lCQ4IBkvA)]
 
 _Click on the image above to watch the video._
 </div>
