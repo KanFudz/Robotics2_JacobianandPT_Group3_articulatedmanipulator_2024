@@ -179,7 +179,6 @@ _Click on the image above to watch the video._
  
 ### **Singularity of Articulated Manipulator**
 
-**PLACEHOLDER LANG**
 
 [![Screenshot 2024-05-21 123947](https://github.com/KanFudz/Robotics2_JacobianandPT_Group3_articulatedmanipulator_2024/assets/157782959/ee12fc9f-2117-4583-be2a-63f5160fd9a6)](https://youtu.be/Jv6aY7FHy8w?si=CZwPOIfWFVowmg2i)
 
