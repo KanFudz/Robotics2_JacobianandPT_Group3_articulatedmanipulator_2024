@@ -132,6 +132,21 @@ In the realm of advanced robotics, the articulated manipulator stands as a corne
 ![JACOBIAN MATRIX ARTICULATED](https://github.com/KanFudz/Robotics2_JacobianandPT_Group3_articulatedmanipulator_2024/assets/157782959/0a0eda2d-cc06-467b-8adb-a0d2916840a0)
 
 </div>
+
+<div align="center">
+ 
+### **Jacobian Matrix of Articulated Manipulator**
+
+**PLACEHOLDER LANG**
+
+[![Step-by-step process of solving the Degrees of Freedom of Articulated manipulator](https://img.youtube.com/vi/g7lCQ4IBkvA/0.jpg)](https://www.youtube.com/watch?v=g7lCQ4IBkvA)
+
+_Click on the image above to watch the video._
+</div>
+
+<br>
+
+
  
     
 ## IV. Differential Equation of Articulated Manipulator<a name="differentialequation"></a>
@@ -145,6 +160,32 @@ In the realm of advanced robotics, the articulated manipulator stands as a corne
 ![DE ARTICULATED](https://github.com/KanFudz/Robotics2_JacobianandPT_Group3_articulatedmanipulator_2024/assets/157782959/6454d0c4-2d5a-4d31-aef8-674e9d5f0f21)
  
 </div>
+
+<div align="center">
+ 
+### **Differential Equation of Articulated Manipulator**
+
+**PLACEHOLDER LANG**
+
+[![Step-by-step process of solving the Degrees of Freedom of Articulated manipulator](https://img.youtube.com/vi/g7lCQ4IBkvA/0.jpg)](https://www.youtube.com/watch?v=g7lCQ4IBkvA)
+
+_Click on the image above to watch the video._
+</div>
+
+<br>
+
+<div align="center">
+ 
+### **Singularity of Articulated Manipulator**
+
+**PLACEHOLDER LANG**
+
+[![Step-by-step process of solving the Degrees of Freedom of Articulated manipulator](https://img.youtube.com/vi/g7lCQ4IBkvA/0.jpg)](https://www.youtube.com/watch?v=g7lCQ4IBkvA)
+
+_Click on the image above to watch the video._
+</div>
+
+<br>
     
 ## V. Path and Trajerctory Planning of Articulated Manipulator<a name="pathandtrajectory"></a>
 
@@ -188,7 +229,34 @@ In the realm of advanced robotics, the articulated manipulator stands as a corne
 <div align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Path and trajectory planning are fundamental to the effective operation of articulated manipulators, ensuring that movements are both efficient and precise. Path planning focuses on determining a feasible and optimal route, while trajectory planning ensures that the manipulator moves along this path smoothly and within its operational limits. Together, these processes enable the manipulator to perform a wide range of tasks, from simple pick-and-place operations to complex assembly and interaction in dynamic environments.
 </div>
+
     
+<br>
+
+<div align="center">
+ 
+### **Path and Trajectory of Articulated Manipulator in Python and MATLAB**
+
+**PLACEHOLDER LANG**
+
+[![Step-by-step process of solving the Degrees of Freedom of Articulated manipulator](https://img.youtube.com/vi/g7lCQ4IBkvA/0.jpg)](https://www.youtube.com/watch?v=g7lCQ4IBkvA)
+
+_Click on the image above to watch the video._
+</div>
+
+<br>
+
+<div align="center">
+ 
+### **Path and Trajectory of Articulated Manipulator GUI calculator**
+
+**PLACEHOLDER LANG**
+
+[![Step-by-step process of solving the Degrees of Freedom of Articulated manipulator](https://img.youtube.com/vi/g7lCQ4IBkvA/0.jpg)](https://www.youtube.com/watch?v=g7lCQ4IBkvA)
+
+_Click on the image above to watch the video._
+</div>
+
 <br>
      
     
