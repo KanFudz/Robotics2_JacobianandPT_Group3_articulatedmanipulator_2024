@@ -237,9 +237,8 @@ _Click on the image above to watch the video._
  
 ### **Path and Trajectory of Articulated Manipulator in Python and MATLAB**
 
-**PLACEHOLDER LANG**
 
-[![Step-by-step process of solving the Degrees of Freedom of Articulated manipulator](https://img.youtube.com/vi/g7lCQ4IBkvA/0.jpg)](https://www.youtube.com/watch?v=g7lCQ4IBkvA)
+![PNP](https://github.com/KanFudz/Robotics2_JacobianandPT_Group3_articulatedmanipulator_2024/assets/157782959/c40af7c4-5437-430e-9a40-6b00d930567c)(dito sa loob ng parenthesis yung link ng yt vid.)
 
 _Click on the image above to watch the video._
 </div>
@@ -250,9 +249,8 @@ _Click on the image above to watch the video._
  
 ### **Path and Trajectory of Articulated Manipulator GUI calculator**
 
-**PLACEHOLDER LANG**
 
-[![Step-by-step process of solving the Degrees of Freedom of Articulated manipulator](https://img.youtube.com/vi/g7lCQ4IBkvA/0.jpg)](https://www.youtube.com/watch?v=g7lCQ4IBkvA)
+![GUI](https://github.com/KanFudz/Robotics2_JacobianandPT_Group3_articulatedmanipulator_2024/assets/157782959/39c3a417-8a9b-4440-a741-0dbd7f45ac65)(dito sa loob ng parenthesis yung link ng yt vid.)
 
 _Click on the image above to watch the video._
 </div>
