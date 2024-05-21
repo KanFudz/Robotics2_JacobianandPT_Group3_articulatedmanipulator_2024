@@ -250,7 +250,7 @@ _Click on the image above to watch the video._
 ### **Path and Trajectory of Articulated Manipulator GUI calculator**
 
 
-![GUI](https://github.com/KanFudz/Robotics2_JacobianandPT_Group3_articulatedmanipulator_2024/assets/157782959/39c3a417-8a9b-4440-a741-0dbd7f45ac65)(dito sa loob ng parenthesis yung link ng yt vid.)
+![GUI](https://github.com/KanFudz/Robotics2_JacobianandPT_Group3_articulatedmanipulator_2024/assets/157782959/39c3a417-8a9b-4440-a741-0dbd7f45ac65)(https://www.youtube.com/watch?v=exKNbCQtMOE)
 
 _Click on the image above to watch the video._
 </div>
