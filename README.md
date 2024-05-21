@@ -238,7 +238,7 @@ _Click on the image above to watch the video._
 ### **Path and Trajectory of Articulated Manipulator in Python and MATLAB**
 
 
-![PNP](https://github.com/KanFudz/Robotics2_JacobianandPT_Group3_articulatedmanipulator_2024/assets/157782959/c40af7c4-5437-430e-9a40-6b00d930567c)(dito sa loob ng parenthesis yung link ng yt vid.)
+[![PNP](https://github.com/KanFudz/Robotics2_JacobianandPT_Group3_articulatedmanipulator_2024/assets/157782959/c40af7c4-5437-430e-9a40-6b00d930567c)] (dito sa loob ng parenthesis yung link ng yt vid.)
 
 _Click on the image above to watch the video._
 </div>
@@ -250,7 +250,7 @@ _Click on the image above to watch the video._
 ### **Path and Trajectory of Articulated Manipulator GUI calculator**
 
 
-![GUI](https://github.com/KanFudz/Robotics2_JacobianandPT_Group3_articulatedmanipulator_2024/assets/157782959/39c3a417-8a9b-4440-a741-0dbd7f45ac65)(dito sa loob ng parenthesis yung link ng yt vid.)
+[![GUI](https://github.com/KanFudz/Robotics2_JacobianandPT_Group3_articulatedmanipulator_2024/assets/157782959/39c3a417-8a9b-4440-a741-0dbd7f45ac65)](https://youtu.be/exKNbCQtMOE?si=80SXAyhQxAnZWi48)
 
 _Click on the image above to watch the video._
 </div>
