@@ -168,7 +168,7 @@ _Click on the image above to watch the video._
 
 
 
-[![DE](https://github.com/KanFudz/Robotics2_JacobianandPT_Group3_articulatedmanipulator_2024/assets/157782959/34b51ee6-638c-459a-89d4-13ea02dee1ca)](dito sa loob ng parenthesis yung link ng yt vid.)
+[![DE](https://github.com/KanFudz/Robotics2_JacobianandPT_Group3_articulatedmanipulator_2024/assets/157782959/34b51ee6-638c-459a-89d4-13ea02dee1ca)] (dito sa loob ng parenthesis yung link ng yt vid.)
 
 _Click on the image above to watch the video._
 </div>
